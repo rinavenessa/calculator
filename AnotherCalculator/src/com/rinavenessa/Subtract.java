@@ -6,9 +6,9 @@ public class Subtract {
     public static void subtract(){
         Scanner input1 = new Scanner(System.in);
         System.out.println("enter first number:");
-        double firstNumber = input1.nextInt();
+        double firstNumber = input1.nextDouble();
         System.out.println("enter second number");
-        double secondNumber = input1.nextInt();
+        double secondNumber = input1.nextDouble();
         double answer = firstNumber -  secondNumber;
         System.out.println(answer);
     }
